@@ -1,0 +1,52 @@
+
+
+nav.navbar.navbar-inverse {
+    background-color: #241023;
+    
+}
+
+ul:a {
+    color: black; 
+}
+
+.navbar-inverse .navbar-brand{
+   
+    color: #b9c0da;
+}
+
+.jumbotron p, h1 {
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headshot img {
+    background-color:#fff;
+    float: right;
+    height:350px;
+    width:370px;
+    
+    
+    
+   
+    
+    
+    
+}
+
+.headshot {
+    margin-right: 300px;
+    margin-left: 196px;
+    height: 500px;
+    
+    
+    
+
+}
+
+.jumbotron {
+    background-color: #eee5e9 !important;
+}
+
+.headshot h3 {
+    font-size: 35px;
+}
