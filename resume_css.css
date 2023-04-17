@@ -21,21 +21,14 @@ ul:a {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.headshot img {
-    background-color:#fff;
-    float: right;
-    height:350px;
-    width:370px;
-    border-radius: 50%;
-    
-    
-    
-}
+
 
 .education {
     margin-right: 200px;
     margin-left: 150px;
-    height: 500px;
+    height: 400px;
+    
+    
     
     
     
@@ -45,26 +38,26 @@ ul:a {
 
 .jumbotron {
     background-color: #CDC5B4 !important;
+    margin-bottom: 10px !important;
 
     
 }
 
-.education h3 {
+ h3 {
     font-size: 35px;
     text-align: left;
+    height: 2px;
+    
 }
 
 body {
-    background-color: #AFBFC0 !important;
+    background-color: #CDC5B4 !important;
     
 }
 
-.headshot p {
-    font-size: 20px;
+ 
 
-}
-
-.education p {
+ p {
     font-size: 20px;
     text-align: left;
 
@@ -76,3 +69,31 @@ body {
     
 
 }
+
+hr {
+    height: 2px;
+}
+
+
+
+
+a.nav-link.active {
+    color: #56494C;
+}
+
+.container-fluid {
+    margin-top: 0px;
+}
+
+
+
+h2 {
+    font-family:'Lucida Sans' !important;
+    margin-bottom: 0px !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }

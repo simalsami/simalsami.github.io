@@ -15,29 +15,30 @@ ul:a {
 }
 
 .jumbotron  h1 {
-    text-align: left;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left  !important;;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  !important;
 }
 
 .jumbotron p {
-    text-align: left;
+    text-align: left !important;
 }
 
 .headshot img {
-    background-color:#fff;
-    float: right;
-    height:350px;
-    width:370px;
-    border-radius: 50%;
+    background-color:#fff  !important;
+    float: right  !important;
+    height:350px  !important;
+    width:370px  !important;
+    border-radius: 50%  !important;
     
     
     
 }
 
 .headshot {
-    margin-right: 200px;
-    margin-left: 150px;
-    height: 500px;
+    margin-right: 200px !important;
+    margin-left: 150px  !important;
+    height: 500px !important;
+
     
     
     
@@ -52,7 +53,9 @@ ul:a {
 }
 
 .headshot h3 {
-    font-size: 35px;
+    font-size: 35px !important;
+    font-family:'Lucida Sans' !important;
+    margin-top: 30px !important;
 }
 
 body {
@@ -61,7 +64,7 @@ body {
 }
 
 .headshot p {
-    font-size: 20px;
+    font-size: 20px !important;
 
 }
 
