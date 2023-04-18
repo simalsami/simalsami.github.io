@@ -58,13 +58,13 @@
     <h1>Resume</h1>     
     <ul class="nav nav-tabs  ">
       <li class="nav-item">
-        <a href="#education.html" class="nav-link active">Education</a>
+        <a href="education.html" class="nav-link active">Education</a>
       </li>
       <li class="nav-item">
         <a href="skills.html" class="nav-link active">Skills</a>
       </li>
       <li class="nav-item">
-        <a href="#experience.html" class="nav-link active">Experience</a>
+        <a href="experience.html" class="nav-link active">Experience</a>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link active">Projects</a>
@@ -106,7 +106,79 @@
   
     <hr>
   </div>
+  <div class="w3-container">
+    <h5 class="w3-opacity" ><b>Relevant Coursework</b>
+     
+
+      <button type="button" class="collapsible"><b>First-year</b></button>
+      <div class="content">
+        <ul style="list-style-type: disc;" >
+          <br>
+          <li>Computer Science I</li>
+          <li>Computer Science II</li>
+          <li>Intro to Computing and Information Technology</li>
+          <li>Discrete Structures</li>
+        </ul>
+      </div>
+       
+      <button type="button" class="collapsible"><b>Sophomore Year</b></button>
+      <div class="content">
+        <ul style="list-style-type: disc;" >
+          <br>
+          <li>Fundamentals of Information Management</li>
+          <li>Cybercrime</li>
+          <li>Calculus I</li>
+          <li>Integrative Programming</li>
+          <li>System Administration</li>
+          <li>Statistics</li>
+          <li>Human-Computer Interactions</li>
+        </ul>
+      </div>
+
+      <button type="button" class="collapsible"><b>Junior Year</b></button>
+      <div class="content">
+        <ul style="list-style-type: disc;" >
+          <br>
+          <li>Computer Networks</li>
+          <li>Network Security</li>
+          <li>Intro to Computing and Information Technology</li>
+          <li>Discrete Structures</li>
+          <li>Web Programming</li>
+          <li>Information Security & Assurance</li>
+        </ul>
+      </div>
+
+      
+      <button type="button" class="collapsible"><b>Senior Year</b></button>
+      <div class="content">
+        <ul style="list-style-type: disc;" >
+          <br>
+          <li>System Integration & Architecture</li>
+          <li>Data Structures & Algorithm</li>
+          <li>Data Science</li>
+          
+        </ul>
+      </div>
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+      </script>
+    
   
+    <hr>
+  </div>
 </div>
 
 <!-- End Right Column -->
