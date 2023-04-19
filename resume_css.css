@@ -14,6 +14,7 @@ ul:a {
 .navbar-inverse .navbar-brand{
    
     color: #b9c0da;
+    font-size: 20px;
 }
 
 .jumbotron h1 {
@@ -143,3 +144,27 @@ ul {
   p {
     font-family: Abhaya Libre !important;
   }
+
+.button:hover {
+  background-color: #ccc;
+
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 12px 17px;
+  border-radius: 50px;
+  background-color: #6f2b740d;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Abhaya Libre;
+  margin-bottom: 10px;
+  
+  
+  
+} 

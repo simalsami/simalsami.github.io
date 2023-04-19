@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
 
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -25,6 +26,46 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
+
+    .w3-opacity button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 12px 17px;
+  border-radius: 50px;
+  background-color: #6f2b740d;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Abhaya Libre;
+  margin-bottom: 10px;
+  
+  
+  
+} 
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 12px 17px;
+  border-radius: 50px;
+  background-color: #6f2b740d;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Abhaya Libre;
+  margin-bottom: 10px;
+  
+  
+  
+} 
+
+
   </style>
 </head>
 <body>
@@ -43,7 +84,7 @@
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         
-        <li><a href="education.html">Resume</a></li>
+        <li><a href="education.html" style="color: white;">Resume</a></li>
         
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
@@ -55,19 +96,24 @@
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Resume</h1>     
+    <h1>Resume</h1>   
+    <div class="download">
+      <a href="simal_resume2022.pdf" download="Resume">
+        <button type="button">Download my Resume</button>
+        </a>
+      </div>  
     <ul class="nav nav-tabs  ">
       <li class="nav-item">
         <a href="education.html" class="nav-link active">Education</a>
       </li>
       <li class="nav-item">
-        <a href="skills.html" class="nav-link active">Skills</a>
+        <a href="skills.html" class="nav-link active" style="background-color: white";>Skills</a>
       </li>
       <li class="nav-item">
         <a href="experience.html" class="nav-link active">Experience</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link active">Projects</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link active">Extracurricular Activities</a>
@@ -84,7 +130,7 @@
     
     <h5 class="w3-opacity"><b>Technical Skills</b>
       
-        <ul style="list-style-type: disc;" >
+        <ul style="list-style-type: none;" >
             <li>Python</li>
             <li>SQL</li>
             <li>Java</li>
@@ -103,7 +149,7 @@
   <div class="w3-container">
     <h5 class="w3-opacity"><b>Certifications</b>
       <br>
-      <ul style="list-style-type: disc;" >
+      <ul style="list-style-type: none;" >
         <li>FCC Federally Licensed Amateur Radio Operator: Technican Class (KC3UAW)</li>
         <li>RCR for Biomedical Investigators</li>
         
