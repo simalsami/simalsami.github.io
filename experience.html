@@ -25,37 +25,58 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
+
+    button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 12px 17px;
+  border-radius: 50px;
+  background-color: #6f2b740d;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  
+} 
+
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Resume</a></li>
+          <li><a href="experience.html">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
         
-        <li><a href="education.html">Resume</a></li>
-        
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+  
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Resume</h1>     
+    <h1>Resume</h1>   
+    <div class="download">
+    <a href="simal_resume2022.pdf" download="Resume">
+      <button type="button">Download my Resume</button>
+      </a>
+    </div>
+</body>  
     <ul class="nav nav-tabs  ">
       <li class="nav-item">
         <a href="education.html" class="nav-link active">Education</a>

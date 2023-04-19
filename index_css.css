@@ -1,9 +1,13 @@
 
 
 nav.navbar.navbar-inverse {
-    background-color: #56494C;
+    background-color: black;
+    font-family: Abhaya Libre;
+    font-size: 20px;
     
 }
+
+
 
 ul:a {
     color: black; 
@@ -12,33 +16,25 @@ ul:a {
 .navbar-inverse .navbar-brand{
    
     color: #b9c0da;
+    font-size: 20px;
 }
 
 .jumbotron  h1 {
     text-align: left  !important;;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  !important;
 }
 
 .jumbotron p {
     text-align: left !important;
 }
 
-.headshot img {
-    background-color:#fff  !important;
-    float: right  !important;
-    height:350px  !important;
-    width:370px  !important;
-    border-radius: 50%  !important;
-    
-    
-    
-}
+
 
 .headshot {
     margin-right: 200px !important;
     margin-left: 150px  !important;
     height: 500px !important;
-
+    font-family: Abhaya Libre !important;
+    
     
     
     
@@ -46,25 +42,17 @@ ul:a {
 
 }
 
-.jumbotron {
-    background-color: #CDC5B4 !important;
 
-    
-}
 
 .headshot h3 {
     font-size: 35px !important;
-    font-family:'Lucida Sans' !important;
+    font-family: Abhaya Libre !important;
     margin-top: 30px !important;
 }
 
-body {
-    background-color: #AFBFC0 !important;
-    
-}
 
 .headshot p {
-    font-size: 20px !important;
+    font-size: 25px !important;
 
 }
 

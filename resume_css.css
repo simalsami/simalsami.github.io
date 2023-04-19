@@ -1,7 +1,9 @@
 
 
 nav.navbar.navbar-inverse {
-    background-color: #56494C;
+    background-color: black;
+    font-family: Abhaya Libre;
+    font-size: 20px;
     
 }
 
@@ -18,7 +20,7 @@ ul:a {
     text-align: left;
    
     
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Abhaya Libre !important;
 }
 
 
@@ -36,30 +38,30 @@ ul:a {
 
 }
 
-.jumbotron {
-    background-color: #CDC5B4 !important;
-    margin-bottom: 10px !important;
-
-    
+b {
+    font-family: Abhaya Libre !important;
 }
+
+
+
+
 
  h3 {
     font-size: 35px;
     text-align: left;
     height: 2px;
+    font-family: Abhaya Libre !important;
     
 }
 
-body {
-    background-color: #CDC5B4 !important;
-    
-}
+
 
  
 
  p {
     font-size: 20px;
     text-align: left;
+    font-family: Abhaya Libre !important;
 
 }
 
@@ -81,23 +83,28 @@ a.nav-link.active {
     color: #56494C;
 }
 
-.container-fluid {
-    margin-top: 0px;
-}
+
 
 
 
 h2 {
-    font-family:'Lucida Sans' !important;
+    font-family: Abhaya Libre !important;
+    font-size: 35px !important;
     margin-bottom: 0px !important;
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding-left: 0;
+    font-family: Abhaya Libre !important;
+    
   }
 
+  .content ul {
+    padding-left: 0;
+  }
   .collapsible {
     background-color: #eee;
     color: #444;
@@ -109,6 +116,8 @@ ul {
     outline: none;
     font-size: 15px;
     margin-top: 5px;
+    font-family: Abhaya Libre !important;
+    
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -118,8 +127,19 @@ ul {
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-    padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    font-family: Abhaya Libre !important;
+    padding-left: 10px;
+  }
+
+  .download {
+    text-align: left;
+
+  }
+
+
+  p {
+    font-family: Abhaya Libre !important;
   }
