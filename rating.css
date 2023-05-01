@@ -1,7 +1,11 @@
 div.stars {
     width: 270px;
     display: inline-block;
-    margin: 30px;
+   
+  }
+
+  form {
+    padding-left: 16px;
   }
    
   input.star { display: none; }
