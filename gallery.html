@@ -3,11 +3,14 @@
 <head>
   <title>Resume</title>
   <link rel="stylesheet" type="text/css" href="resume_css.css" />
+  <link rel="stylesheet" type="text/css" href="rating.css" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
@@ -16,6 +19,8 @@
 
 
   <style>
+
+    
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -69,7 +74,7 @@ img {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand" >Portfolio</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -86,7 +91,8 @@ img {
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Gallery</h1>   
+    <h1>Gallery</h1> 
+    
 
 </body>  
     
@@ -97,24 +103,26 @@ img {
 
 <div class="w3-container w3-card w3-white" style="margin: 30px;";>
   <h2 class="w3-text-grey w3-padding-16 w3-padding-right-30"><i class=" w3-margin-right w3-xxlarge "></i>My Artwork</h2>
+  <p style="margin-left: 21px;">One of my hobbies and passions outside of work is art! Feel free to explore this page and check out my work.</p>  
   <div class="container-fluid bg-3 text-center">    
    
     <div class="row">
       <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        
+        <img src="art1.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
       <div class="col-sm-3"> 
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+       
+        <img src="art2.png" class="img-responsive" style="width:100%" alt="Image">
       </div>
       <div class="col-sm-3"> 
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        <img src="art3.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
       <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        <img src="art4.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
     </div>
   </div><br>
@@ -122,20 +130,20 @@ img {
   <div class="container-fluid bg-3 text-center">    
     <div class="row">
       <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        <img src="art5.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
       <div class="col-sm-3"> 
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        <img src="art6.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
       <div class="col-sm-3"> 
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        <img src="art7.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
       <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        
+        <img src="W3USR_logo.png" style="background-color: #222" class="img-responsive" style="width:100%" alt="Image">
       </div>
     </div>
   </div><br><br>
@@ -167,18 +175,27 @@ img {
 
 </div><br>
 
-
+<p class="w3-padding-16">I'd love your feedback! How is this website?</p>
+  <form accept-charset="UTF-8" action="https://www.formbackend.com/f/7d97373eb2230305" method="POST">
+    <div class="stars">
+    
+        <input class="star star-5" id="star-5" type="radio" name="1 star"/>
+        <label class="star star-5" for="star-5"></label>
+        <input class="star star-4" id="star-4" type="radio" name="2 star"/>
+        <label class="star star-4" for="star-4"></label>
+        <input class="star star-3" id="star-3" type="radio" name="3 star"/>
+        <label class="star star-3" for="star-3"></label>
+        <input class="star star-2" id="star-2" type="radio" name="4 star"/>
+        <label class="star star-2" for="star-2"></label>
+        <input class="star star-1" id="star-1" type="radio" name="5 star"/>
+        <label class="star star-1" for="star-1"></label>
+       <button> <input type="submit"></button>
+      
+    </div>
+  </form>
 
 <footer class="container-fluid text-center">
-  <a href="https://www.facebook.com/simal.sami.7/" style="padding: 20px; text-align: center;"><i class="fa fa-facebook-f fa-2x" style="color: #3b5998;"></i></a>
 
-<!-- Twitter -->
-<a href="https://twitter.com/simal_sami" style="padding: 20px; text-align: center;"><i class="fa fa-twitter fa-2x" style="color: #55acee;"></i></a>
-
-
-
-<!-- Instagram -->
-<a href="https://www.instagram.com/simalsami/" style="padding: 20px; text-align: center;"><i class="fa fa-instagram fa-2x" style="color: #ac2bac;"></i></a>
 
 <!-- Linkedin -->
 <a href="https://www.linkedin.com/in/simalsami/" style="padding: 20px; text-align: center;"><i class="fa fa-linkedin fa-2x" style="color: #0082ca;"></i></a>
@@ -189,10 +206,11 @@ img {
 <!-- Github -->
 <a href="https://github.com/simalsami" style="padding: 20px; text-align: center;"><i class="fa fa-github fa-2x" style="color: #333333;"></i></a>
 
-<a href="mailto:simalsami@gmail.com" style="padding: 20px; text-align: center;"><i class="fa fa-envelope fa-2x" style="color: #333333;"></i>
+<a href="mailto:ss223267@gmail.com" style="padding: 20px; text-align: center;"><i class="fa fa-envelope fa-2x" style="color: #333333;"></i>
 
   
 </footer>
+
 
 </body>
 </html>
